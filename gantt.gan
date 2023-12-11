@@ -1,9 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2023-11-01" view-index="0" gantt-divider-location="323" resource-divider-location="300" version="3.1.3103" locale="fr_FR">
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2023-10-01" view-index="0" gantt-divider-location="323" resource-divider-location="300" version="3.1.3103" locale="fr_FR">
     <description/>
     <view zooming-state="default:9" id="gantt-chart">
         <field id="tpd3" name="Nom" width="175" order="0"/>
         <field id="tpd4" name="Date de début" width="72" order="1"/>
         <field id="tpd5" name="Date de fin" width="72" order="2"/>
+        <option id="color.recent">
+            <![CDATA[#cc0033 #ccccff #00cc99 #ff9966 #cc00cc #000000 #0000cc #9900cc #990099]]>
+        </option>
     </view>
     <view id="resource-table">
         <field id="0" name="Nom" width="210" order="0"/>
@@ -33,62 +36,98 @@
             <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
-        <task id="37" name="Recherhce de fond" color="#8cb6ce" meeting="false" start="2023-12-11" duration="17" complete="0" thirdDate="2023-08-28" thirdDate-constraint="0" expand="true">
+        <task id="37" name="Recherche de fond" color="#0000cc" meeting="false" start="2023-12-11" duration="18" complete="0" thirdDate="2023-08-28" thirdDate-constraint="0" expand="true">
             <depend id="41" type="2" difference="0" hardness="Strong"/>
             <depend id="45" type="2" difference="0" hardness="Strong"/>
             <depend id="116" type="2" difference="0" hardness="Strong"/>
             <depend id="152" type="2" difference="0" hardness="Strong"/>
-            <task id="101" name="Aide de l'état" color="#8cb6ce" meeting="false" start="2023-12-11" duration="2" complete="0" thirdDate="2023-11-01" thirdDate-constraint="0" expand="true">
+            <task id="101" name="Aide de l'état" color="#ccccff" meeting="false" start="2023-12-11" duration="3" complete="0" thirdDate="2023-11-01" thirdDate-constraint="0" expand="true">
+                <notes>
+                    <![CDATA[Faire des démandes au près des mairie/région
+]]>
+                </notes>
                 <depend id="112" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="112" name="Investisseure priver/associatif/donnateur" color="#8cb6ce" meeting="false" start="2023-12-13" duration="15" complete="0" thirdDate="2023-11-01" thirdDate-constraint="0" expand="true"/>
+            <task id="112" name="Investisseure priver/associatif/donnateur" color="#ccccff" meeting="false" start="2023-12-14" duration="15" complete="0" thirdDate="2023-11-01" thirdDate-constraint="0" expand="true">
+                <notes>
+                    <![CDATA[Chercher des colaborateurs fiancier, priver ou pas.]]>
+                </notes>
+            </task>
         </task>
-        <task id="41" name="Démarche" color="#8cb6ce" meeting="false" start="2024-01-03" duration="140" complete="0" thirdDate="2023-11-13" thirdDate-constraint="0" expand="true">
-            <task id="116" name="Demarchae administrative" color="#8cb6ce" meeting="false" start="2024-01-03" duration="5" complete="0" thirdDate="2023-11-01" thirdDate-constraint="0" expand="true">
+        <task id="41" name="Démarche" color="#cc00cc" meeting="false" start="2024-01-04" duration="140" complete="0" thirdDate="2023-11-13" thirdDate-constraint="0" expand="true">
+            <task id="116" name="Demarchae administrative" color="#ccccff" meeting="false" start="2024-01-04" duration="5" complete="0" thirdDate="2023-11-01" thirdDate-constraint="0" expand="true">
                 <notes>
                     <![CDATA[ATTENTION  : Durée peut varié celon les démarches à faire]]>
                 </notes>
             </task>
-            <task id="120" name="Démarchar agriculteur" color="#8cb6ce" meeting="false" start="2024-01-03" duration="140" complete="0" thirdDate="2024-01-03" thirdDate-constraint="0" expand="true">
+            <task id="120" name="Démarchar agriculteur" color="#cc00cc" meeting="false" start="2024-01-04" duration="140" complete="0" thirdDate="2024-01-03" thirdDate-constraint="0" expand="true">
                 <notes>
                     <![CDATA[Démarche récurante dans le projet]]>
                 </notes>
-                <task id="122" name="10 agriculteurs" color="#8cb6ce" meeting="false" start="2024-01-03" duration="28" complete="0" thirdDate="2024-01-03" thirdDate-constraint="0" expand="true">
+                <task id="122" name="10 agriculteurs" color="#ccccff" meeting="false" start="2024-01-04" duration="28" complete="0" thirdDate="2024-01-03" thirdDate-constraint="0" expand="true">
                     <depend id="127" type="2" difference="0" hardness="Strong"/>
                 </task>
-                <task id="127" name="20 agriculteurs" color="#8cb6ce" meeting="false" start="2024-02-12" duration="28" complete="0" thirdDate="2024-01-03" thirdDate-constraint="0" expand="true">
+                <task id="127" name="20 agriculteurs" color="#ccccff" meeting="false" start="2024-02-13" duration="28" complete="0" thirdDate="2024-01-03" thirdDate-constraint="0" expand="true">
                     <depend id="137" type="2" difference="0" hardness="Strong"/>
                 </task>
-                <task id="137" name="30 agriculteurs" color="#8cb6ce" meeting="false" start="2024-03-21" duration="28" complete="0" thirdDate="2024-01-03" thirdDate-constraint="0" expand="true">
+                <task id="137" name="30 agriculteurs" color="#ccccff" meeting="false" start="2024-03-22" duration="28" complete="0" thirdDate="2024-01-03" thirdDate-constraint="0" expand="true">
                     <depend id="141" type="2" difference="0" hardness="Strong"/>
                     <depend id="153" type="2" difference="0" hardness="Strong"/>
                 </task>
-                <task id="141" name="40 agriculteurs" color="#8cb6ce" meeting="false" start="2024-04-30" duration="28" complete="0" thirdDate="2024-01-03" thirdDate-constraint="0" expand="true">
+                <task id="141" name="40 agriculteurs" color="#ccccff" meeting="false" start="2024-05-01" duration="28" complete="0" thirdDate="2024-01-03" thirdDate-constraint="0" expand="true">
                     <depend id="145" type="2" difference="0" hardness="Strong"/>
                 </task>
-                <task id="145" name="50 agriculteurs" color="#8cb6ce" meeting="false" start="2024-06-07" duration="28" complete="0" thirdDate="2024-01-03" thirdDate-constraint="0" expand="true"/>
+                <task id="145" name="50 agriculteurs" color="#ccccff" meeting="false" start="2024-06-10" duration="28" complete="0" thirdDate="2024-01-03" thirdDate-constraint="0" expand="true"/>
             </task>
         </task>
-        <task id="45" name="promo" color="#8cb6ce" meeting="false" start="2024-02-08" duration="165" complete="0" thirdDate="2023-11-13" thirdDate-constraint="0" expand="true">
-            <task id="152" name="promo beta projet" color="#8cb6ce" meeting="false" start="2024-02-08" duration="5" complete="0" thirdDate="2023-11-13" thirdDate-constraint="0" expand="true"/>
-            <task id="153" name="promo mi projet" color="#8cb6ce" meeting="false" start="2024-06-13" duration="15" complete="0" thirdDate="2024-02-08" thirdDate-constraint="0" expand="true"/>
-            <task id="160" name="promo de fin de pojet" color="#8cb6ce" meeting="false" start="2024-08-15" duration="30" complete="0" thirdDate="2024-02-08" thirdDate-constraint="0" expand="true"/>
+        <task id="45" name="promo" color="#ff9966" meeting="false" start="2024-02-08" duration="165" complete="0" thirdDate="2023-11-13" thirdDate-constraint="0" expand="true">
+            <task id="152" name="promo beta projet" color="#ccccff" meeting="false" start="2024-02-08" duration="5" complete="0" thirdDate="2023-11-13" thirdDate-constraint="0" expand="true">
+                <notes>
+                    <![CDATA[Faire une promotion sans montrer l'avancement du projet et sans donner de date 
+pour éviter les problèmes]]>
+                </notes>
+            </task>
+            <task id="153" name="promo mi projet" color="#ccccff" meeting="false" start="2024-06-13" duration="15" complete="0" thirdDate="2024-02-08" thirdDate-constraint="0" expand="true">
+                <notes>
+                    <![CDATA[Communiquer la date d'apparition et la mise en ligne du projet(a changer en fonction de l'avancement du projet). ]]>
+                </notes>
+            </task>
+            <task id="160" name="promo de fin de pojet" color="#ccccff" meeting="false" start="2024-08-15" duration="30" complete="0" thirdDate="2024-02-08" thirdDate-constraint="0" expand="true">
+                <notes>
+                    <![CDATA[Promouvoir à fond !!!!]]>
+                </notes>
+            </task>
         </task>
-        <task id="49" name="Création application" color="#8cb6ce" meeting="false" start="2023-12-11" duration="133" complete="0" thirdDate="2023-11-13" thirdDate-constraint="0" expand="true">
-            <task id="60" name="Dvp maquette app" color="#8cb6ce" meeting="false" start="2023-12-11" duration="43" complete="0" thirdDate="2023-11-13" thirdDate-constraint="0" expand="true">
+        <task id="49" name="Création Web" color="#00cc99" meeting="false" start="2023-12-11" duration="133" complete="0" thirdDate="2023-11-13" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[Cla va être une appli web embarquer, à y penser pandent les développement]]>
+            </notes>
+            <task id="60" name="Dvp maquette app" color="#ccccff" meeting="false" start="2023-12-11" duration="43" complete="0" thirdDate="2023-11-13" thirdDate-constraint="0" expand="true">
+                <notes>
+                    <![CDATA[Faire la maquette de la page web]]>
+                </notes>
                 <depend id="45" type="2" difference="0" hardness="Strong"/>
                 <depend id="72" type="2" difference="0" hardness="Strong"/>
                 <depend id="152" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="72" name="phase dvp API" color="#8cb6ce" meeting="false" start="2024-02-08" duration="40" complete="0" thirdDate="2023-11-13" thirdDate-constraint="0" expand="true">
+            <task id="72" name="phase dvp API" color="#ccccff" meeting="false" start="2024-02-08" duration="40" complete="0" thirdDate="2023-11-13" thirdDate-constraint="0" expand="true">
+                <notes>
+                    <![CDATA[Création d'une API]]>
+                </notes>
                 <depend id="92" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="92" name="dvp application Android/IOS" color="#8cb6ce" meeting="false" start="2024-04-04" duration="50" complete="0" thirdDate="2023-12-11" thirdDate-constraint="0" expand="true">
+            <task id="92" name="dvp web" color="#ccccff" meeting="false" start="2024-04-04" duration="50" complete="0" thirdDate="2023-12-11" thirdDate-constraint="0" expand="true">
+                <notes>
+                    <![CDATA[Garder bien en tête que la page web soi fonctionelle sur tel]]>
+                </notes>
                 <depend id="153" type="2" difference="0" hardness="Strong"/>
                 <depend id="154" type="2" difference="0" hardness="Strong"/>
             </task>
         </task>
-        <task id="154" name="Web appli" color="#8cb6ce" meeting="false" start="2024-06-13" duration="45" complete="0" thirdDate="2023-11-01" thirdDate-constraint="0" expand="true">
+        <task id="154" name="creation appli" color="#cc0033" meeting="false" start="2024-06-13" duration="45" complete="0" thirdDate="2023-11-01" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[Crée un application à partir de la page web (comme Discord)]]>
+            </notes>
             <depend id="160" type="2" difference="0" hardness="Strong"/>
         </task>
     </tasks>
